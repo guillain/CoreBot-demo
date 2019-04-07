@@ -1,8 +1,10 @@
 # CoreBot-demo
-Use to have configuration template ready to run with all features activated for
-the [CoreBot-framework](https://github.com/guillain/CoreBot-framework.git).
+This repository is one of the CoreBot package.
 
-Have fun
+It provides a **demo** useful to run quickly the bot on many business messaging.
+
+It uses to have configuration template ready to run with all features activated for
+the [CoreBot-framework](https://github.com/guillain/CoreBot-framework.git).
 
 ## Prequisite
 - Linux OS with yum as package manager
@@ -23,25 +25,38 @@ Optionally for the on Cloud business messaging:
   - Mmicrosoft Teams
   - Slack
 
-By default only the web server is activated as the other need token or password.
+**By default only the web server is activated** as the other need **token or password**.
+So thanks to overload the conf (with .env and/or json file or env var)
 
-## Documentation
-Thanks to point on the global application repo:
-- https://github.com/guillain/CoreBot
-
-Or if you want to jump drectly in the configuration documentation:
-- https://github.com/guillain/CoreBot-doc/configuration.md
-
-## CoreBot structure
+## Welcome on the CoreBot repository structure
 0. [CoreBot](https://https://github.com/guillain/CoreBot)
-   Repository that regroups all CoreBot repositories
+    - Repository that regroups all CoreBot repositories
+
 1. [CoreBot-framework](https://github.com/guillain/CoreBot-framework)
-   CoreBot framework based on the [Botkit](https://botkit.ai/) application
+    - CoreBot framework based on the [Botkit](https://botkit.ai/) application
+
 2. [CoreBot-Ansible](https://github.com/guillain/CoreBot-Ansible)
-   Ansible playbooks to deploy and maintain CoreBot-framework on dev, stage and
+    - Ansible playbooks to deploy and maintain CoreBot-framework on dev, stage and
    production environment taken into account CI/CD pipeline
+
 3. [CoreBot-doc](https://github.com/guillain/CoreBot-doc)
-   Documentation about CoreBot-framework
-4. [CoreBot-demo](https://github.com/guillain/CoreBot-demo)
-   Example of CoreBot application packaging for on-prem or on-cloud integration
+    - Documentation about CoreBot-framework
+
+        1. GetStarted
+            - [logic](https://github.com/guillain/CoreBot-doc/blob/master/logic.md)
+            - [installation](https://github.com/guillain/CoreBot-doc/blob/master/installation.md)
+            - [configuration](https://github.com/guillain/CoreBot-doc/blob/master/configuration.md)
+
+        2. Component explanation
+            - [controller](https://github.com/guillain/CoreBot-doc/blob/master/controller.md)
+            - [launcher](https://github.com/guillain/CoreBot-doc/blob/master/launcher.md)
+
+        3. Features
+            - [add new](https://github.com/guillain/CoreBot-doc/blob/master/add_new.md)
+            - [library](https://github.com/guillain/CoreBot-doc/blob/master/library.md)
+            - [security](https://github.com/guillain/CoreBot-doc/blob/master/security.md)
+            - [ToDo](https://github.com/guillain/CoreBot-doc/blob/master/ToDo.md)
+
+        4. [CoreBot-demo](https://github.com/guillain/CoreBot-demo)
+            - Example of CoreBot application packaging for on-prem or on-cloud integration
 
