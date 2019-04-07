@@ -1,4 +1,4 @@
-# CoreBot-framework-default
+# CoreBot-demo
 Use to have configuration template ready to run with all features activated for
 the [CoreBot-framework](https://github.com/guillain/CoreBot-framework.git).
 
