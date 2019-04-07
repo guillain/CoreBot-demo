@@ -1,0 +1,57 @@
+{
+    "launcher": {
+        "hangouts": {
+            "enable": false,
+            "name": "CoreBot-framework",
+            "jsonCred": "",
+            "endpoint": "",
+            "token": "",
+            "port": "4003",
+            "store": "data/hangouts/",
+            "hostname": "corebot-framework-google.eu-ddlab.com"
+        },
+        "web": {
+            "enable": true,
+            "name": "corebot-framework",
+            "port": 4000,
+            "store": "data/web/"
+        },
+        "slack": {
+            "enable": false,
+            "name": "corebot-framework",
+            "token": "",
+            "secret": "",
+            "store": "data/slack/"
+        },
+        "jabber": {
+            "enable": false,
+            "name": "CoreBot-framework",
+            "jid": "",
+            "password": "",
+            "store": "data/jabber/",
+            "ip": "",
+            "port": "5222"
+        },
+        "spark": {
+            "enable": false,
+            "name": "CoreBot-framework",
+            "mail": "CoreBot-framework@webex.bot",
+            "botid": "",
+            "url": "",
+            "port": "",
+            "accessToken": "",
+            "secret": "",
+            "webhookName": "corebot-framework",
+            "store": "data/spark/"
+        },
+        "teams": {
+            "enable": false,
+            "name": "CoreBot-framework",
+            "clientId": "",
+            "clientSecret": "",
+            "hostname": "",
+            "port": "",
+            "store": "data/teams/"
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "user": {
+        "default": {
+            "mail": "default@mail.com",
+            "privilege": "user"
+        },
+        "guillain_DD": {
+            "mail": "guillain.sanchez@dimensiondata.com",
+            "privilege": "admin"
+        },
+        "guillain_G": {
+            "mail": "guillain@gmail.com",
+            "privilege": "admin"
+        },
+        "guillain_T": {
+            "mail": "guillain.test@gmail.com",
+            "privilege": "block"
+        }
+    }
+}
