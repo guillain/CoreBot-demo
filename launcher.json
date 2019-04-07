@@ -1,21 +1,5 @@
 {
     "launcher": {
-        "hangouts": {
-            "enable": false,
-            "name": "CoreBot-framework",
-            "jsonCred": "",
-            "endpoint": "",
-            "token": "",
-            "port": "4003",
-            "store": "data/hangouts/",
-            "hostname": "corebot-framework-google.eu-ddlab.com"
-        },
-        "web": {
-            "enable": true,
-            "name": "corebot-framework",
-            "port": 4000,
-            "store": "data/web/"
-        },
         "slack": {
             "enable": false,
             "name": "corebot-framework",
@@ -32,13 +16,19 @@
             "ip": "",
             "port": "5222"
         },
+        "web": {
+            "enable": true,
+            "name": "corebot-framework",
+            "port": "4000",
+            "store": "data/web/"
+        },
         "spark": {
             "enable": false,
             "name": "CoreBot-framework",
             "mail": "CoreBot-framework@webex.bot",
             "botid": "",
             "url": "",
-            "port": "",
+            "port": "4001",
             "accessToken": "",
             "secret": "",
             "webhookName": "corebot-framework",
@@ -50,8 +40,18 @@
             "clientId": "",
             "clientSecret": "",
             "hostname": "",
-            "port": "",
+            "port": "4002",
             "store": "data/teams/"
+        },
+        "hangouts": {
+            "enable": false,
+            "name": "CoreBot-framework",
+            "jsonCred": "",
+            "endpoint": "",
+            "token": "",
+            "port": "4003",
+            "store": "data/hangouts/",
+            "hostname": "corebot-framework-google.eu-ddlab.com"
         }
     }
 }
